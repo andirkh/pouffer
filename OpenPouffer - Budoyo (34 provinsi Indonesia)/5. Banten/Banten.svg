@@ -16,9 +16,9 @@
    version="1.1"
    inkscape:version="0.91 r"
    sodipodi:docname="Banten.svg"
-   inkscape:export-filename="/home/andi/Dropbox/OPEN POUFFER/Provinsi Indonesia/5. Banten/Banten.png"
-   inkscape:export-xdpi="196"
-   inkscape:export-ydpi="196">
+   inkscape:export-filename="/home/andi/Dropbox/OPEN POUFFER/OpenPouffer - Budoyo (34 provinsi Indonesia)/5. Banten/Banten.png"
+   inkscape:export-xdpi="196.2"
+   inkscape:export-ydpi="196.2">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -29,8 +29,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="356.30764"
-     inkscape:cy="505.36025"
+     inkscape:cx="381.04219"
+     inkscape:cy="476.05978"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -57,7 +57,7 @@
      inkscape:groupmode="layer"
      id="layer1">
     <rect
-       style="opacity:1;fill:#e8ffe1;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#afa593;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect15183"
        width="557.60419"
        height="557.60419"
@@ -1207,6 +1207,12 @@
       </g>
     </g>
     <path
+       style="opacity:0.38200001;fill:#0e0000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 454.65176,363.82536 c 6.80786,-22.92262 9.13784,-42.78917 6.85217,-41.94769 -0.95912,0.3531 0.1573,4.04905 1.39438,6.50279 -13.37978,0.26324 -14.72921,-5.55342 -21.6823,-11.74795 3.21196,6.50827 1.76465,4.66727 6.94299,11.40775 -26.58664,-3.34502 -35.656,1.50541 -39.31938,-10.85503 2.02443,3.6395 -3.7297,10.51275 -7.55435,12.23041 -1.02393,-2.32691 -1.34575,-7.68095 -3.95138,-9.11712 2.41825,15.97036 3.94078,35.95417 14.55804,48.72484 13.69042,33.95051 -16.95892,26.03316 -24.79589,2.24681 -3.10451,-19.70186 -5.03797,-41.50945 -5.20141,-55.2967 -0.78453,-9.37255 0.9182,-24.31371 5.64544,-26.03851 10.63746,-5.09121 13.32035,-14.45246 27.08755,-15.06321 20.94317,-4.12607 42.86868,3.1995 57.86948,12.08526 5.75707,6.82984 9.49326,13.0041 9.3,23.76732 -1.30175,21.45022 -3.77368,39.724 -5.53691,54.73614 -0.90261,35.56896 -53.86455,35.48513 -21.60843,-1.63511 z"
+       id="path8414-9-4"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csccccccccccccccc" />
+    <path
        style="fill:#0e0000;fill-opacity:1;fill-rule:evenodd;stroke:#382000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 453.36094,361.90802 c 6.80786,-22.92262 9.13784,-42.78917 6.85217,-41.94769 -0.95912,0.3531 0.1573,4.04905 1.39438,6.50279 -13.37978,0.26324 -14.72921,-5.55342 -21.6823,-11.74795 3.21196,6.50827 1.76465,4.66727 6.94299,11.40775 -26.58664,-3.34502 -35.656,1.50541 -39.31938,-10.85503 2.02443,3.6395 -3.7297,10.51275 -7.55435,12.23041 -1.02393,-2.32691 -1.34575,-7.68095 -3.95138,-9.11712 2.41825,15.97036 3.94078,35.95417 14.55804,48.72484 13.69042,33.95051 -16.95892,26.03316 -24.79589,2.24681 -3.10451,-19.70186 -5.03797,-41.50945 -5.20141,-55.2967 -0.78453,-9.37255 0.9182,-24.31371 5.64544,-26.03851 10.63746,-5.09121 13.32035,-14.45246 27.08755,-15.06321 20.94317,-4.12607 42.86868,3.1995 57.86948,12.08526 5.75707,6.82984 9.49326,13.0041 9.3,23.76732 -1.30175,21.45022 -3.77368,39.724 -5.53691,54.73614 -0.90261,35.56896 -53.86455,35.48513 -21.60843,-1.63511 z"
        id="path8414-9"
@@ -1300,7 +1306,7 @@
          sodipodi:role="line"
          x="354.81131"
          y="699.47394"
-         id="tspan8257">&quot;faith and fear to god&quot;</tspan></text>
+         id="tspan8257">&quot;Faith and Fear of God&quot;</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.95228195px;line-height:125%;font-family:'Proxima Nova';-inkscape-font-specification:'Proxima Nova';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -1311,7 +1317,7 @@
          sodipodi:role="line"
          id="tspan15213"
          x="116.9809"
-         y="701.28101">4/34</tspan></text>
+         y="701.28101">5/34</tspan></text>
     <path
        style="opacity:1;fill:#2c1f0c;fill-opacity:1;stroke:#382000;stroke-width:1.36321175;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 453.49852,595.77182 c -2.10579,-0.26135 0.41679,-0.22107 -2.01335,-0.50056 -6.84707,11.08347 -14.61361,8.30815 -17.91093,-0.4668 -0.95369,0.11403 -1.80953,0.26805 -2.52709,0.46974 -1.46166,4.90221 0.71344,12.52405 1.09695,25.52009 0.0999,4.21815 17.33061,5.2071 18.50227,-0.14216 2.42422,-8.58497 3.93388,-16.4847 2.85215,-24.88031 z"
