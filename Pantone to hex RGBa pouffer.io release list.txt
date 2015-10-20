@@ -18,10 +18,10 @@ PANTONE 378, #566314FF , done/jimbapop/fr 22 sept/release
 PANTONE 377, #709302FF , done/exploration/teaser 25 sept/release
 PANTONE 376, #7FBA00FF , done/endless/teaser 25 sept/release
 PANTONE 371, #566B21FF , done/Lampung part 1 25 sept/release
-PANTONE 370, #568E14FF , done/Lampung part 2 26 sept/
-PANTONE 369, #56AA1CFF , 
-PANTONE 364, #3A7728FF , 
-PANTONE 363, #3D8E33FF , 
+PANTONE 370, #568E14FF , done/Lampung part 2 26 sept/release
+PANTONE 369, #56AA1CFF ,  /kadal tugas kuliah X openpouffer
+PANTONE 364, #3A7728FF ,  /BUAT CIPTA/
+PANTONE 363, #3D8E33FF ,  /MBAINTAN
 PANTONE 362, #339E35FF , 
 PANTONE 357, #215B33FF , 
 PANTONE 356, #007A3DFF , 
