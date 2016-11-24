@@ -1,4 +1,4 @@
-#1. Folder OpenPouffer - Budoyo
+#1. OpenPouffer
 Merupakan project free open source, aset 2d tentang kebudayaan Indonesia. Berisi karakter dengan baju adat 34 Provinsi Indonesia (masih on going). Asset 2 dimensi disini bisa kalian gunakan juga untuk tugas sekolah / kuliah, dijadikan produk turunan lainnya seperti game dress-up, packaging, karakter di software apps kalian, dan lain-lain. Boleh juga untuk kepentingan komersil, namun jgn lupa menulis sumbernya :)
 
 Seperti lisensi BY-SA yg lain, Kalian Bebas untuk :
