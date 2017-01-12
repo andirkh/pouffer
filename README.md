@@ -12,7 +12,7 @@ for any purpose, even commercially."
 		- Software Inkscape 0.91
 
 #2. Support
-Jika kalian merasa project ini menarik atau membantu hidup kalian lebih baik, yuk support dengan cara follow instagram @pouffer.io di https://instagram.com/pouffer.io
+Fork repository ini
 
 This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.
 
