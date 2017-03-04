@@ -1,0 +1,36 @@
+body {
+  background-color: #FF3A2D;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  margin: .67em 0;
+  font-size: 2.1em;
+  font-weight: 600;
+  color: white;
+}
+
+h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: white
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+.paddingers {
+    padding: 5px 0;
+}
+
+.marginers {
+    margin-bottom:40px;
+}
+
+hr {
+    margin-top: 5px
+}

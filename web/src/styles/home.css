@@ -1,0 +1,14 @@
+.Home-content {
+    padding-top: 10px;
+}
+
+.Home-img {
+    width: 380px;
+}
+.Home-main {
+    margin-top:30px;
+    margin-bottom:20px;
+    background-color: white;
+    min-height: 300px;
+    border-radius: 8px;
+}

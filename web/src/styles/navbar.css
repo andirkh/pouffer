@@ -1,0 +1,8 @@
+.Navbar-link {
+    color:white;
+}
+
+.Navbar-link:hover {
+    color: #D6D6D6;
+    background-color: transparent;
+}
