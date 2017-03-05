@@ -4496,11 +4496,13 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   /*background-color: #FF3A2D;*/
   border-color: none;
 }
-/*.navbar-default .navbar-brand {
-  color: #777;
-}*/
+.navbar-default .navbar-brand {
+   font-family: 'Montserrat';
+  /*color: #777;*/
+}
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
+  font-family: 'Montserrat';
   color: #D6D6D6;
   background-color: transparent;
 }
