@@ -20,35 +20,5 @@ https://github.com/andirkh/OPENPOUFFER
 
 
 
-## Lokalin Web React
-
-> Keterangan : Web client untuk lokalin 2.0, dengan lib React.js 
-
-Petunjuk Menggunakan :
-	git clone /*thisrepos*/
-    cd lokalin-web-react
-	npm install
-
-Cara Development :
-	npm run lokalin
-
-Cara Build :
-	npm run build
-	_file build ada di lokalin-web-react/build/_
-    
-Cara Ngetest Build :
-	npm run serve
-    
-Cara Hapus Build :
-	npm run remove
-    
-## Informasi :
-- File untuk development ada di **src**
-- Root File ada di **src/index.js**
-- Tiap Page terdapat diwakili tiap container di folder ** src/containers/*.js **. Container adalah bagian logic tiap page.
-- Tiap Container memiliki beberapa component. Component adalah bagian View yg modular. Tiap component dibagi berdasarkan kategori di folder ** src/components/*.js **
-- API ada di ** src/api/api.js **. Sesuaikan alamat API di _const APIURL_
-- jika ada apa-apa, hubungi http://nic.catfiz.com/andirkh
-
 
 
