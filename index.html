@@ -1,245 +1,405 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<!-- bagian bootstrap css -->
-	<link rel="stylesheet" href="asset/bootstrap/css/bootstrap.css">
-<!--<link rel="stylesheet" href="asset/animate.css">-->
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Gentium+Book+Basic' rel='stylesheet' type='text/css'>
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <head>
+
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="free open source 2D content about Indonesia">
+    <!-- social media meta -->
+    <meta name="title" content="Pouffer">
+    <meta name="description" content="Karakter 2D Gratis dan Open Source">
     <meta name="author" content="andirkh">
-    <link rel="icon" href="favicon.ico">
 
-<!-- Open Graph Data-->
-<meta property="og::title" content="OpenPouffer - Free and Open Source 2D Asset about untuk Kebudayaan Indonesia" />
-<meta property="og::type" content="website" />
-<meta property="og::url" content="http://open.pouffer.com" />
-<meta property="og::image" content="http://open.pouffer.com/media_image.jpg" />
-<meta property="og::description" content="membantu kalian menciptakan produk kreatif bernuansa Indonesia dengan menyediakan Aset 2D gratis dan Open Source untuk game mobile apps dan developer" />
-<meta property="og::site_name" content="OpenPouffer" />
+    <meta property="og:locale" content="id_ID">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="pouffer.com">
+    <meta property="og:title" content="pouffer">
+    <meta property="og:url" content="https://dreamleague.kompetivo.com">
+    <meta property="og:image" content="https://s.kompetivo.com/cb0568f1.jpg">
+    <meta property="og:description" content="Register Dream League">
+    <meta property="fb:app_id" content="1333292946766830">
+    <meta property="article:publisher" content="https://www.facebook.com/Kompetivo-1446879522280213/">
+    <meta property="article:author", content="https://www.facebook.com/Kompetivo-1446879522280213/">
 
-<!-- GOOGLE ANALITYC -->
-    <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Dream League">
+    <meta name="twitter:description" content="Register Dream League">
+    <meta name="twitter:site" content="@kompetivo_id">
+    <meta name="twitter:creator" content="@kompetivo_id">
+    <meta name="twitter:image" content="https://s.kompetivo.com/cb0568f1.jpg">
 
-         ga('create', 'UA-61952975-2', 'auto');
-        ga('send', 'pageview');
-    </script>
-<!-- SHARE THIS -->
-    <script type="text/javascript">var switchTo5x=true;</script>
-    <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
-    <script type="text/javascript" src="http://s.sharethis.com/loader.js"></script>
+    <!-- favicon mania -->
+    <link rel="shortcut icon" href="img/favicon/favicon.ico">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="img/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="img/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="img/favicon/manifest.json">
+    <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#FF3A2D ">
 
+    <title>Pouffer - Karakter 2D Gratis dan Open Source</title>
 
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-	<title>OpenPouffer - Budaya dan Open Source </title>
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,600,700" rel="stylesheet">
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css">
 
-	<style>
-		.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-			background-color:#449d44;
-			color:white;
-		}
+    <!-- Custom styles for this template -->
+    <link href="css/pouffer.css" rel="stylesheet">
 
-	</style>
-</head>
+  </head>
 
-<body>
+  <body id="page-top">
 
-<!-- _______________________________________________________________________________________NAVBAR -->
-<nav class="navbar navbar-default navbar-fixed-top navbar-md">
-	<div class="container">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="true">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="http://open.pouffer.com" style="font-weight: 600;"><b>OpenPouffer</b></a>
-    </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <!-- <ul class="nav navbar-nav">
-
-      </ul> -->
-
-      <ul class="nav navbar-nav navbar-right">
-	      <!-- <li><a href="http://instagram.com/pouffer.io" target="_blank"><b>Instagram</b></a></li>-->
-        <li><a href="https://github.com/andirkh/OPENPOUFFER/archive/master.zip" target="_blank" class="btn btn-success btn-xs" id="tombolbutton"><b>Download (.zip) </b></a></li>
-      </ul>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Pouffer</a>
+        <button class="navbar-toggler navbar-toggler-right text-uppercase text-white rounded" style="background: #449d44" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
+    </nav>
 
-<!-- Konten -->
-<div class="container">
-	<div class="row">
-    <div class="col-md-6">
-    	<img class="img-responsive" src="home12.jpg" alt="">
-    </div>
-
-    <div class="col-md-6">
-		<div class="page-header">
-			<h1> Perkenalkan </h1>
-		</div>
-    	<!-- <p>Hai, OpenPouffer membantu kalian menciptakan produk kreatif bernuansa Indonesia dengan menyediakan
-    		Aset 2D gratis dan Open Source. Nah OpenPouffer berguna untuk :</p> -->
-		<p>
-			OpenPouffer menyediakan asset vektor 2D gratis dan open source tentang kebudayaan 32 provinsi Indonesia yg berguna untuk :
-		</p>
-            <ul class="list-unstyled">
-                <li> Tugas Kuliah / Sekolah</li>
-                <li> Membuat produk kreatif seperti Game, Visual Novel, Kemasan Produk dll</li>
-                <li> Kepentingan pribadi maupun komersial</li>
-            </ul>
-		<p>
-			Project ini belum sepenuhnya selesai, baru sebagian terbuat namun sudah bisa digunakan. Check terus Github page-nya <a href="https://github.com/andirkh/OPENPOUFFER"> disini </a> dan jika ingin mendownload klik <a href="https://github.com/andirkh/OPENPOUFFER"> disini </a>
-		</p>
-    </div>
-</div>
-</div>
-<!--	</div>
-    <br>
-	<div class="row">
-    <div class="col-md-6">
-    	<img class="img-responsive" src="home2.jpg" alt="">
-    </div>
-
-    <div class="col-md-6">
-    	<div class="page-header">
-			<h1> Manfaat </h1>
-		</div>
-    	<p>Teruntuk semua orang termasuk Warga Negara Indonesia boleh menggunakan aset 2D
-    		Open Pouffer untuk berkarya, mengeksplorasi kebudayaan Indonesia, Tugas Sekolah/Kuliah,
-    		Kemasan Produk, sprites Game, Visual Novel dan karya Produk lainnya. Baik untuk Kepentingan
-    		pribadi maupun komersil.</p> <br>
-
-    </div>
-	</div>
-	<br>
-	<div class="row">
-    <div class="col-md-6">
-    	<img class="img-responsive" src="home3.jpg" alt="">
-    </div>
-
-
-    <div class="col-md-6">
-    	<div class="page-header">
-			<h1> Benarkah Ini Gratis? </h1>
-		</div>
-    	<p>Tentu saja, Open Pouffer merupakan produk non-profit. Framework ini sudah bisa digunakan,
-    		namun belum selesai. Jika kalian ingin berkontribusi juga untuk Indonesia dan menyelesaikan
-    		framework ini, yuk klik disini.</p>
-    </div>
-    </div>
-</div> -->
-<div class="container" style="margin-top:50px">
-
-        <div class="col-md-12">
-            <div style="text-align:center">
-                <img src="bendera1.jpg" alt="">
-            </div>
+    <!-- Header -->
+    <header class="masthead bg-primary text-dark text-center">
+      <div class="container">
+        <img class="img-fluid mb-5 d-block mx-auto" src="img/profile.png" alt="">
+        <h1 class="text-uppercase mb-0">Free & Open Source</h1>
+        <hr class="star-light">
+        <h2 class="font-weight-light mb-0">Asset Karakter Vektor 2D untuk Project Kalian</h2>
+        <br />
+        <div class="text-center">
+          <a href="#" target="_blank" class="btn btn-primary btn-xl">
+            <i class="fa fa-download mr-2"></i>
+            Download from GitHub
+          </a>
         </div>
+      </div>
+    </header>
 
-</div>
-<!-- Konten Kedua -->
-<div style="background-color:#FFCC00;  margin-top:15px;">
-    <div class="container">
+    <!-- Portfolio Grid Section -->
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <h2 class="text-center text-uppercase text-secondary mb-0">Contohnya</h2>
+        <hr class="star-dark mb-5">
         <div class="row">
-            <div class="col-md-6">
-
-    <div style="margin:0px 5% 10px 5%; padding-top:10px">
-        <p style="text-size:1.4em; font-family:'Open Sans';"> "Update 2 Oktober 2016 : Dua belas provinsi sudah selesai, tinggal 20 provinsi."</p>
-    </div>
-
-            </div>
-
-            <div class="col-md-6">
-                <div style="padding-top: 10px; padding-bottom:10px">
-<!-- Begin MailChimp Signup Form -->
-    <link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
-    <style type="text/css">
-    #mc_embed_signup{ font:14px "Open Sans",sans-serif; }
-/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-       We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-    </style>
-    <div id="mc_embed_signup" style="margin:0 auto;">
-        <form action="https://pouffer.us12.list-manage.com/subscribe/post?u=9fe2956e12801269730554fc8&amp;id=b183865180" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-            <div id="mc_embed_signup_scroll" >
-                <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required style="border-radius:5px;">
-<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                    <div style="position: absolute; left: -5000px;">
-                        <input type="text" name="b_9fe2956e12801269730554fc8_b183865180" tabindex="-1" value="">
-                    </div>
-                    <div class="clear" style="margin:0 auto;">
-                        <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary">
-                    </div>
-            </div>
-        </form>
-    </div>
-</div>
-
-            </div>
-
-
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-1">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/telematicsman.png" alt="">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-2">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/kalimantan.png" alt="">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-3">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/jellyfish.png" alt="">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-4">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/books.png" alt="">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-5">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/accelerate.png" alt="">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-6">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/rocketballoon.png" alt="">
+            </a>
+          </div>
         </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="bg-primary text-dark mb-0" id="about">
+      <div class="container">
+        <h2 class="text-center text-uppercase text-dark">Tentang</h2>
+        <hr class="star-light mb-5">
+        <div class="row">
+          <div class="col-lg-4 ml-auto">
+            <p class="lead">Pouffer menyediakan asset vektor 2D gratis dan open source tentang kebudayaan 34 provinsi Indonesia yg berguna untuk Tugas Kuliah / Sekolah, Membuat produk kreatif seperti Game, Visual Novel, Kemasan Produk dll, Kepentingan pribadi maupun komersial</p>
+          </div>
+          <div class="col-lg-4 mr-auto">
+            <p class="lead">Project ini belum sepenuhnya selesai, baru sebagian terbuat namun sudah bisa digunakan. Check terus Github-nya disini dan jika ingin berkontribusi, jangan ragu untuk hubungi saya lewat Telegram di tombol di bawah.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="text-center text-uppercase text-secondary mb-0">Hubungi</h2>
+        <hr class="star-dark mb-5">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
+            <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
+
+              <div class="text-center">
+                <a href="https://telegram.me/andirkh" target="_blank" class="btn btn-primary btn-xl">
+                  <i class="fa fa-download mr-2"></i>
+                  via Telegram
+                </a>
+              </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 mb-5 mb-lg-0">
+            <h4 class="text-uppercase mb-4">Location</h4>
+            <p class="lead mb-0">Crafted in Surabaya
+              <br>Since 2014</p>
+          </div>
+          <div class="col-md-4 mb-5 mb-lg-0">
+            <h4 class="text-uppercase mb-4">Around the Web</h4>
+            <ul class="list-inline mb-0">
+
+              <li class="list-inline-item">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://instagram.com/pouffer.io">
+                  <i class="fa fa-fw fa-instagram"></i>
+                </a>
+              </li>
+
+              <li class="list-inline-item">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://github.com/andirkh/pouffer">
+                  <i class="fa fa-fw fa-github"></i>
+                </a>
+              </li>
+
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h4 class="text-uppercase mb-4">About Pouffer</h4>
+            <p class="lead mb-0">Pouffer is a free and open source 2D character vector assets. Visit our
+              <a href="https://github.com/andirkh/pouffer">GitHub</a> to Contribute.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="copyright py-4 text-center text-white">
+      <div class="container">
+        <small>Copyright &copy; Pouffer 2014-2018 by @andirkh</small>
+      </div>
     </div>
 
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-to-top d-lg-none position-fixed ">
+      <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
+        <i class="fa fa-chevron-up"></i>
+      </a>
+    </div>
 
+    <!-- Portfolio Modals -->
 
+    <!-- Portfolio Modal 1 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-1">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0">Character Design</h2>
+              <hr class="star-dark mb-5">
+              <img class="img-fluid mb-5" src="img/portfolio/telematicsman.png" alt="">
+              <p class="mb-5">pouffer project by @andirkh</p>
+              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                <i class="fa fa-close"></i>
+                Close Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
+    <!-- Portfolio Modal 2 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-2">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0">Open Pouffer</h2>
+              <hr class="star-dark mb-5">
+              <img class="img-fluid mb-5" src="img/portfolio/kalimantan.png" alt="">
+              <p class="mb-5">pouffer project by @andirkh</p>
+              <a class="btn btn-primary btn-lg rounded-pill" href="https://github.com/andirkh/pouffer">
+                Contribute</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-</div>
+    <!-- Portfolio Modal 3 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-3">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0">Birthday Gift</h2>
+              <hr class="star-dark mb-5">
+              <img class="img-fluid mb-5" src="img/portfolio/jellyfish.png" alt="">
+              <p class="mb-5">pouffer project by @andirkh</p>
+              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                <i class="fa fa-close"></i>
+                Close Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
+    <!-- Portfolio Modal 4 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-4">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0">Books</h2>
+              <hr class="star-dark mb-5">
+              <img class="img-fluid mb-5" src="img/portfolio/books.png" alt="">
+              <p class="mb-5">pouffer project by @andirkh</p>
+              <a class="btn btn-primary btn-lg rounded-pill" target="_blank" href="http://andirkh.com/adventure-journal/read/" >
+                Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
+    <!-- Portfolio Modal 5 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-5">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0">Explaining Accelerometer</h2>
+              <hr class="star-dark mb-5">
+              <img class="img-fluid mb-5" src="img/portfolio/accelerate.png" alt="">
+              <p class="mb-5">pouffer project by @andirkh</p>
+              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                <i class="fa fa-close"></i>
+                Close Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
+    <!-- Portfolio Modal 6 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-6">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0">Birthday Gift</h2>
+              <hr class="star-dark mb-5">
+              <img class="img-fluid mb-5" src="img/portfolio/rocketballoon.png" alt="">
+              <p class="mb-5">pouffer project by @andirkh</p>
+              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                <i class="fa fa-close"></i>
+                Close Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-<!-- _______________________________________________________________________________________FOOTER -->
-<footer style="background-color:black; padding-top:20px; padding-bottom:10px">
-	<div class="container">
-		<div class="col-md-4">
-            <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
-		</div>
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-		<div class="col-md-4">
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 
-			<h5 class="text-center">&copy; OpenPouffer 2015-2017 by @andirkh </h5><br>
-            <h5 class="text-center" style="margin-top:-30px">Crafted in Surabaya</h5>
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
 
-		</div>
+    <!-- Custom scripts for this template -->
+    <script src="js/freelancer.min.js"></script>
 
-		<div class="col-md-4 center-block">
-			<span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Open Pouffer </span> by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">pouffer.io</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
-		</div>
+  </body>
 
-	</div>
-</footer>
-
-
-<!-- _____________________________________________________________________JAVASCRIPT ADA DIBAWAH INI-->
-	<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
-	<script src="asset/bootstrap/js/bootstrap.min.js"></script>
-	<!--<script src="asset/wow.js"></script>
-    <script>
-       new WOW().init();
-    </script>-->
-<!-- SHARE THIS Bottom -->
-    <script type="text/javascript">stLight.options({publisher: "4c4c46be-6c83-45d9-b4a5-c163717fc0b2", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
-    <script>
-    var options={ "publisher": "4c4c46be-6c83-45d9-b4a5-c163717fc0b2", "position": "right", "ad": { "visible": false, "openDelay": 5, "closeDelay": 0}, "chicklets": { "items": ["facebook", "googleplus", "twitter", "pinterest", "linkedin"]}};
-    var st_hover_widget = new sharethis.widgets.hoverbuttons(options);
-    </script>
-
-
-</body>
 </html>
